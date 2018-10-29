@@ -1,0 +1,72 @@
+# common
+/RESTController.php
+/app/config/config.local.php
+/app/config/constants.local.php
+
+# codeception
+/tests/_data/*
+!/tests/_data/.gitkeep
+/tests/_envs/*
+!/tests/_envs/.gitkeep
+/tests/_output/*
+!/tests/_output/.gitkeep
+/tests/_support/_generated/*
+!/tests/_support/_generated/.gitkeep
+
+# phpstorm project files
+.idea
+
+# composer itself & composer vendor dir
+composer.phar
+/vendor
+
+#cahce
+/cache/*
+!/cache/metadata
+/cache/metadata/*
+!/cache/metadata/.gitkeep
+!/cache/.gitkeep
+
+/composer.lock
+composer.lock
+
+# Logs and databases
+/logs/*
+!/logs/.gitkeep
+!/logs/tasks/
+/logs/tasks/*
+!/logs/tasks/.gitkeep
+*.sql
+*.sqlite
+
+# Compiled source #
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+
+tests/_output/*

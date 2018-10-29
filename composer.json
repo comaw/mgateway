@@ -1,0 +1,26 @@
+{
+  "name"             : "comaw/mgateway",
+  "description"      : "gateway",
+  "minimum-stability": "stable",
+  "version"          : "0.1",
+  "license"          : "GNU",
+  "authors"          : [
+    {
+      "name" : "php-shaman",
+      "email": "comaw@i.ua"
+    }
+  ],
+  "require"          : {
+    "codeception/codeception": "~2.2.9"
+  },
+  "autoload"    : {
+    "psr-4": {
+      "phaman\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "phaman\\tests\\": "tests/"
+    }
+  }
+}
