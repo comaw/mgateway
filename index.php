@@ -8,5 +8,14 @@
  * Time: 4:07 PM
  */
 
+include __DIR__ . '/vendor/autoload.php';
 
-echo "OK";
+use shaman\Gateway;
+
+$gateway = new Gateway(__DIR__ . '/example-settings.json');
+
+$response = $gateway->send();
+
+
+var_dump($response->getStatusCode());
+var_dump($response->getBody()->getContents());

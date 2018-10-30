@@ -4,8 +4,6 @@
 /app/config/constants.local.php
 
 # codeception
-/tests/_data/*
-!/tests/_data/.gitkeep
 /tests/_envs/*
 !/tests/_envs/.gitkeep
 /tests/_output/*

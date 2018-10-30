@@ -11,16 +11,17 @@
     }
   ],
   "require"          : {
-    "codeception/codeception": "~2.2.9"
+    "codeception/codeception": "~2.2.9",
+    "guzzlehttp/guzzle": "~6.0"
   },
   "autoload"    : {
     "psr-4": {
-      "phaman\\": "src/"
+      "shaman\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "phaman\\tests\\": "tests/"
+      "shaman\\tests\\": "tests/"
     }
   }
 }
